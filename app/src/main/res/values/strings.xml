@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Daily Journal</string>
+    <string name="username_text_hint_login">Enter your name</string>
+    <string name="pass_text_hint_login">Enter your password</string>
+    <string name="login_button">Login</string>
+    <string name="or_text_login">or</string>
+    <string name="sign_up_button_login">Sign Up</string>
+    <string name="username_text_hint_signup">Enter your username</string>
+    <string name="pass_text_hint_signup">Enter your password</string>
+    <string name="reenter_text_hint_signup">Re-enter your password</string>
+    <string name="sign_up_button_signup">Sign Up</string>
+</resources>
