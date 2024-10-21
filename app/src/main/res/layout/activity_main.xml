@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/main_logo"
         android:layout_width="0dp"
         android:layout_height="320dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/mainlogo" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/username_edittext_login"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -26,10 +26,10 @@
         android:hint="@string/username_text_hint_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_logo" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/pass_edittext_login"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -39,7 +39,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/username_edittext_login" />
 
     <Button
         android:id="@+id/login_button"
@@ -50,11 +50,12 @@
         android:text="@string/login_button"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="loginActivity"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/pass_edittext_login" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/or_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -74,5 +75,6 @@
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:onClick="signupActivity"
+        app:layout_constraintTop_toBottomOf="@+id/or_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>

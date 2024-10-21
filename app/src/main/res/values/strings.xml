@@ -9,4 +9,7 @@
     <string name="pass_text_hint_signup">Enter your password</string>
     <string name="reenter_text_hint_signup">Re-enter your password</string>
     <string name="sign_up_button_signup">Sign Up</string>
+    <string name="greeting_text">Hi, welcome to Daily Journal!</string>
+    <string name="hi_welcome_to_daily_journal">Hi, welcome to Daily Journal</string>
+    <string name="add_entry">Add entry</string>
 </resources>
